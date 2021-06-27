@@ -1,6 +1,7 @@
 # Intro_a_react_Ejercicio1.6
 
-unicafe, paso 1
+***Unicafe, paso 1***
+
 Como la mayoría de las empresas, Unicafe recopila comentarios de sus clientes. Su tarea es implementar una aplicación web para recopilar comentarios de los clientes. Solo hay tres opciones para los comentarios: good (bueno), neutral y bad(malo).
 
 La aplicación debe mostrar el número total de comentarios recopilados para cada categoría. Su aplicación final podría verse así:
