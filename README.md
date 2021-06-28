@@ -8,7 +8,7 @@ Continuemos refactorizando la aplicación. Extraiga los dos componentes siguient
 - Statistics para mostrar una única estadística, por ejemplo, la puntuación media.
 Para ser claros: el componente Statistics siempre muestra una única estadística, lo que significa que la aplicación utiliza varios componentes para representar todas las estadísticas:
 
-
+```
 const Statistics = (props) => {
   /// ...
   return(
@@ -20,4 +20,5 @@ const Statistics = (props) => {
     </div>
   )
 }
+```
 
