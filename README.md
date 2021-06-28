@@ -11,6 +11,9 @@ Tenga en cuenta que su aplicación debe funcionar solo durante una única sesió
 
 Puede implementar la aplicación en un solo archivo index.js. Puede utilizar el siguiente código como punto de partida para su aplicación.
 
+
+![img](https://fullstackopen.com/static/d4fe767d6d8eb46f1dd21334f5f9e46e/5a190/13e.png)
+
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 
