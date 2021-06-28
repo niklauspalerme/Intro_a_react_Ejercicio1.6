@@ -6,6 +6,7 @@ Refactorice su aplicación para que la visualización de las estadísticas se ex
 
 Recuerde que los componentes no deben definirse dentro de otros componentes:
 
+```
 // un lugar adecuado para definir un componente
 const Statistics = (props) => {
   // ...
@@ -25,3 +26,4 @@ const App = () => {
     // ...
   )
 }
+```
