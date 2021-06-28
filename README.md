@@ -1,29 +1,8 @@
 # Intro_a_react_Ejercicio1.6
 
-***Unicafe, paso 3***
+***Unicafe, paso 5***
 
-Refactorice su aplicación para que la visualización de las estadísticas se extraiga en su propio componente Statistics. El estado de la aplicación debe permanecer en el componente raíz App.
+Cambie su aplicación para mostrar estadísticas solo una vez que se hayan recopilado los comentarios.:
 
-Recuerde que los componentes no deben definirse dentro de otros componentes:
+![img](https://fullstackopen.com/static/b453d7533ae85dcaf3eccf342a353c58/5a190/15e.png)
 
-```
-// un lugar adecuado para definir un componente
-const Statistics = (props) => {
-  // ...
-}
-
-const App = () => {
-  const [good, setGood] = useState(0)
-  const [neutral, setNeutral] = useState(0)
-  const [bad, setBad] = useState(0)
-
-  // no defina componentes adentro de otro componente
-  const Statistics = (props) => {
-    // ...
-  }
-
-  return (
-    // ...
-  )
-}
-```
