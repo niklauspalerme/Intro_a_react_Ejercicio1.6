@@ -2,7 +2,22 @@
 
 ***Unicafe, paso 5***
 
-Cambie su aplicación para mostrar estadísticas solo una vez que se hayan recopilado los comentarios.:
+Continuemos refactorizando la aplicación. Extraiga los dos componentes siguientes:
 
-![img](https://fullstackopen.com/static/b453d7533ae85dcaf3eccf342a353c58/5a190/15e.png)
+- Button para definir los botones utilizados para enviar comentarios
+- Statistics para mostrar una única estadística, por ejemplo, la puntuación media.
+Para ser claros: el componente Statistics siempre muestra una única estadística, lo que significa que la aplicación utiliza varios componentes para representar todas las estadísticas:
+
+
+const Statistics = (props) => {
+  /// ...
+  return(
+    <div>
+      <Statistic text="good" value ={...} />
+      <Statistic text="neutral" value ={...} />
+      <Statistic text="bad" value ={...} />
+      // ...
+    </div>
+  )
+}
 
