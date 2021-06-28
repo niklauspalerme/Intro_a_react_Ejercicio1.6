@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 
 const Statistics = ({good,bad,neutral,total,porcentajePositivo,promedio}) =>{
 
-    console.log(good)
-
     return(
         <>
             <h1>Statitics</h1>
