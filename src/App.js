@@ -43,12 +43,28 @@ const App = () => {
       )
   }
 
+
+  //Renderizado Condicional
+  if (good ===0 && bad ===0 && neutral ===0){
+    return(
+      <>
+        <h1>Give Feedback</h1>
+        <Botton name="Good" handleClick={increaseGood}/>
+        <Botton name="Bad" handleClick={increaseBad}/>
+        <Botton name="Neutral" handleClick={increaseNeutral}/>
+        <h1>Statitics</h1>
+        <h3>No Feedback Given</h3>
+      </>
+    )
+  }
+
   return (
     <>
       <h1>Give Feedback</h1>
       <Botton name="Good" handleClick={increaseGood}/>
       <Botton name="Bad" handleClick={increaseBad}/>
       <Botton name="Neutral" handleClick={increaseNeutral}/>
+      <h1>Statitics</h1>
       <Statistics good={good} bad={bad} neutral={neutral} total={getTotal()} porcentajePositivo = {porcentajePositivo()} promedio={promedio()}/>
     </>
   )
